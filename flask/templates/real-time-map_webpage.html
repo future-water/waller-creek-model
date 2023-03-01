@@ -34,12 +34,9 @@
 </head>
 <body>
  <div id="map"></div>
-
 <script>
-        const currentTimeInMilliseconds=Date.now();;
-
         var map = L.map('map').setView([30.3082076, -97.7278519], 14);
-
+	
 
         var streets = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 18,
@@ -112,9 +109,9 @@ var circle = L.circleMarker([30.2885368, -97.7346486], {
                 radius: 5
         }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=30&from=now-24h&to=now%2B1h" target="_blank"> EER </a>');
 
-
-
-
+$.getJSON("/home/ubuntu/data/drainage.js", function(data){
+	var drainage=L.geoJSON(data,{style:{color:'red'}}).addTo(map)
+	});
 
 /*
         var polygon = L.polygon([
