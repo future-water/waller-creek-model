@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Sam Shorter</origin>
+				<pubdate>2008</pubdate>
+				<title Sync="TRUE">WLR_Modelstream_Main</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Espey Consultants, Inc.</pubplace>
+					<publish>staff</publish>
+				</pubinfo>
+				<onlink>\\SERVER7\Civil Projects\active\6030.02.111 WCT GIS Based Restudy\TSDN\Hydrology\Appendix E\Spatial_Data\WLR_Drainage_Boundary.shp</onlink>
+				<ftname Sync="TRUE">WLR_Modelstream_Main</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Stream Centerline of Waller Creek.</abstract>
+			<purpose>Required input in hydrologic model to desribe the topographically adjusted stream centerline.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-97.741302</westbc>
+				<eastbc Sync="TRUE">-97.715702</eastbc>
+				<northbc Sync="TRUE">30.337883</northbc>
+				<southbc Sync="TRUE">30.258908</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">3114860.025875</leftbc><rightbc Sync="TRUE">3122272.296009</rightbc><bottombc Sync="TRUE">10067607.993108</bottombc><topbc Sync="TRUE">10096164.633808</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Stream</themekey>
+				<themekey>Stream Centerline</themekey>
+				<themekey>Waller Creek Centerline</themekey><themekey>Waller Creek</themekey><themekey>Waller Stream</themekey></theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Travis Wilson, P.E.</cntper>
+					<cntorg>Espey Consultants, Inc.</cntorg>
+				</cntperp>
+				<cntpos>Project Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>3809 South 2nd Street Suite B-300</address>
+					<city>Austin</city>
+					<state>Texas</state>
+					<postal>78704</postal>
+					<country>Travis</country>
+				</cntaddr>
+				<cntvoice>512-326-5659</cntvoice>
+				<cntfax>512-326-5723</cntfax>
+				<cntemail>twilson@espeyconsultants.com</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\grojas\LOCALS~1\Temp\xml5AF.tmp</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\grojas\LOCALS~1\Temp\xml5BB.tmp</srcused><date Sync="TRUE">20080715</date><time Sync="TRUE">13314200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20080818</date><time Sync="TRUE">09530200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">P:\active\6030.02.111 WCT GIS Based Restudy\TSDN\Hydrology\Appendix E\Spatial_Data\WLR_Modelstream_Main_and_HEM</srcused><date Sync="TRUE">20080818</date><time Sync="TRUE">10105700</time></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">P:\active\6030.02.111 WCT GIS Based Restudy\TSDN\Review\WLR_Modelstream</srcused><date Sync="TRUE">20080820</date><time Sync="TRUE">16015400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">P:\active\6030.02.111 WCT GIS Based Restudy\TSDN\Review_Hydrology\GIS Shapefiles\WLR_Modelstream</srcused><date Sync="TRUE">20080829</date><time Sync="TRUE">10204400</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="WLR_Modelstream_Main">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">1</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="WLR_Modelstream_Main"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">30.116667</stdparll><stdparll Sync="TRUE">31.883333</stdparll><longcm Sync="TRUE">-100.333333</longcm><latprjo Sync="TRUE">29.666667</latprjo><feast Sync="TRUE">2296583.333333</feast><fnorth Sync="TRUE">9842500.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988</altdatum>
+				<altunits>feet</altunits>
+				<altenc>Implicit coordinate</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="WLR_Modelstream_Main">
+			<enttyp>
+				<enttypl Sync="TRUE">WLR_Modelstream_Main</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>ORIENTATE</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>STREAM</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>STUDIEDFIS</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>US_1</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>US_2</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>US_3</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>US_4</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>DS_1</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>ADJUST</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>US_STATION</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>DS_STATION</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>CHAN_DEPTH</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>VELOCITY</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>FNODE_</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>TNODE_</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>LPOLY_</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>RPOLY_</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>LENGTH_FEE</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>FFINAL_CL2</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FFINAL_C_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FNODE1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>TNODE1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>LPOLY1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>RPOLY1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>FM2_CL_</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>FM2_CL_ID</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>FNODE1_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>TNODE1_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>LPOLY1_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>RPOLY1_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>TESTCL_</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>TESTCL_ID</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>CL_CL_SP_M</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>CL_CL_SP_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>LENGTH_F_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>COMMENT</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>ACTION_</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>SOURCETHM</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl>LENGTH_F_2</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>AUTONUMBER</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>OUTFALL</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>SHAPE_LENG</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>SHAPE_LE_1</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.399</transize>
+					<dssize Sync="TRUE">0.017</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20080715</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Espey Consultants, Inc.</cntorg>
+					<cntper>Gabriel Rojas</cntper>
+				</cntorgp>
+				<cntpos>Planner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>3809 South 2nd Street Suite B-300</address>
+					<city>Austin</city>
+					<state>Texas</state>
+					<postal>78704</postal>
+					<country>Travis</country>
+				</cntaddr>
+				<cntvoice>512-326-5659</cntvoice>
+				<cntfax>512-326-5723</cntfax>
+				<cntemail>grojas@espeyconsultants.com</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20080829</CreaDate><CreaTime>10204400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20080715</SyncDate><SyncTime>14205700</SyncTime><ModDate>20080715</ModDate><ModTime>14205700</ModTime><MetaID>{4FF6C7E7-4C44-4302-9801-D1D7F9A68216}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">WLR_Modelstream_Main</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">3114860.025875</westBL><eastBL Sync="TRUE">3122272.296009</eastBL><northBL Sync="TRUE">10096164.633808</northBL><southBL Sync="TRUE">10067607.993108</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-97.741302</westBL><eastBL Sync="TRUE">-97.715702</eastBL><northBL Sync="TRUE">30.337883</northBL><southBL Sync="TRUE">30.258908</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\SERVER7\Civil Projects\active\6030.02.111 WCT GIS Based Restudy\TSDN\Hydrology\Appendix E\Spatial_Data\WLR_Modelstream</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.017</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="WLR_Modelstream_Main"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20080715</mdDateSt></metadata>
