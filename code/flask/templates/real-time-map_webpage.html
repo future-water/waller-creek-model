@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Quick Start - Leaflet</title>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="static/lib/leaflet/leaflet.css">
+    	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+    	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+	<link rel="stylesheet" href="static/lib/leaflet-sidebar-v2/leaflet-sidebar.css">
+
+
+        <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    #map {
+        width: 600px;
+        height: 400px;
+        z-index: 150;
+    }
+    .important { color: #336699; }
+
+    #locator{position: absolute; visibility: visible; left:2%;  bottom: 3%; height: 254px; width: 254px; z-index: 200; border:2px solid #3887be;}
+    body { padding: 0; margin: 0; } #map { width: 100vw; height: 100vh; }
+
+</style>
+
+        
+</head>
+<body>
+ <div id="map"></div>
+<script>
+        var map = L.map('map').setView([30.3082076, -97.7278519], 14);
+	
+
+        var streets = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	});
+
+	var dark =L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?access_token=sk.eyJ1IjoieWs4Njk0IiwiYSI6ImNsZW9rdjdhcDAzY2Uzdm1saGdhMGlxb2UifQ.bcqZ_kFiuM71LBOutP-xdg', {
+         maxZoom: 18,
+         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap &copy; <a href="http://mapbox.com">Mapbox</a>'
+     }).addTo(map);
+	var baseMaps ={
+		"Dark" : dark,
+		"Streets" :streets,
+	};
+	var layerControl = L.control.layers(baseMaps).addTo(map);
+
+
+
+        //var marker = L.marker([30.2735989, -97.807702]).addTo(map)
+        //      .bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
+
+        var circle = L.circleMarker([30.2886711, -97.7337527], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+	}).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=10&from=now-24h&to=now%2B1h" target="_blank"> Bridge2 </a><br><a href="http://ec2-13-58-107-29.us-east-2.compute.amazonaws.com:3000/d/57LBrMb4z/simulation?orgId=1&from=now-3h&to=now%2B1h" target="_blank">Simulation</a>');
+
+var circle = L.circleMarker([30.2871667, -97.7341111], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+        }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?viewPanel=26&from=now-24h&to=now%2B1h" target="_blank"> Bridge5 </a>');
+
+
+        var circle = L.circleMarker([30.2858333, -97.7338333], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+        }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=16&from=now-24h&to=now%2B1h" target="_blank"> Bridge3 </a>');
+
+
+        var circle = L.circleMarker([30.2834167, -97.7344444], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+        }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=20&from=now-24h&to=now%2B1h" target="_blank"> Bridge4 </a>');
+
+var circle = L.circleMarker([30.3259528, -97.7208138], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+        }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=36&from=now-24h&to=now%2B1h" target="_blank"> Reilly pond </a>');
+
+var circle = L.circleMarker([30.3385096, -97.7195263], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+        }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=34&from=now-24h&to=now%2B1h" target="_blank"> Crestview </a>');
+
+var circle = L.circleMarker([30.2885368, -97.7346486], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.8,
+                radius: 5
+        }).addTo(map).bindPopup('<br><a href = "http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&viewPanel=30&from=now-24h&to=now%2B1h" target="_blank"> EER </a>');
+
+$.getJSON("/home/ubuntu/data/drainage.js", function(data){
+	var drainage=L.geoJSON(data,{style:{color:'red'}}).addTo(map)
+	});
+
+/*
+        var polygon = L.polygon([
+                [51.509, -0.08],
+                [51.503, -0.06],
+                [51.51, -0.047]
+        ]).addTo(map).bindPopup('I am a polygon.');
+        var popup = L.popup()
+                .setLatLng([51.513, -0.09])
+                .setContent('I am a standalone popup.')
+                .openOn(map);
+                */
+
+        function onMapClick(e) {
+                popup
+                        .setLatLng(e.latlng)
+                        .setContent('You clicked the map at ' + e.latlng.toString())
+                        .openOn(map);
+        }
+
+        map.on('click', onMapClick);
+
+</script>
+
+
+
+
+</body>
+</html>
