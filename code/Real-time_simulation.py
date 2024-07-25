@@ -226,9 +226,9 @@ def save_simulation_result(h_j, Q_uk, client3):
                 client3.write_points(json_body)
 
 
-#set client
-client = InfluxDBClient(host='ec2-54-81-80-49.compute-1.amazonaws.com',username='generic_node',password='GlareShellTwilight',database='tomorrow_api' )
-client3 = InfluxDBClient(host='ec2-54-81-80-49.compute-1.amazonaws.com',username='generic_node',password='GlareShellTwilight' ,database='simulation_plot')
+#####client need to be set. 
+client = InfluxDBClient(host='',username='',password='',database='' )
+client3 = InfluxDBClient(host='',username='',password='' ,database='')
 
 # Load pipedream model information
 superjunctions = pd.read_csv('/home/ubuntu/data/waller_superjunctions.csv', index_col=0)
