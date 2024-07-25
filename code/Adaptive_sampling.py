@@ -6,8 +6,8 @@ from influxdb import InfluxDBClient
 from pytz import timezone
 
 #####This part needs to be written for server and database connection. 
-# client = InfluxDBClient(host='',username='',password='',database='' )
-# client2 = InfluxDBClient(host='', port='', username='', password='')
+client = InfluxDBClient(host='',username='',password='',database='' )
+client2 = InfluxDBClient(host='', port='', username='', password='')
 
 
 def recall_precipProbability():
