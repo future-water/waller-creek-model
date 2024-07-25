@@ -6,7 +6,8 @@ import json
 from influxdb import InfluxDBClient
 from datetime import datetime
 
-client = InfluxDBClient(host='ec2-3-88-251-104.compute-1.amazonaws.com',username='generic_node',password='GlareShellTwilight',database='tomorrow_api' )
+#####This part needs to be written for server and database connection. 
+client = InfluxDBClient(host='',username='',password='',database='' )
 
 # Tomorrow.io API https://docs.tomorrow.io/reference/get-timelines
 # use schedule module to do work
@@ -26,7 +27,10 @@ def collect_tomorrow_API_forecast_data(i):
     set_location=location[i]
     #set_location=('location', '30.2871667, -97.7341111')
 
-    params = (set_location,('units', 'imperial'),('timesteps','1m'),('startTime','now'),('endTime','nowPlus2h'),('apikey', 'VYLHerX2Zbk6nBvVo4VTkpGg2JFJTfw3'),)
+    ##apikey needs to be written -- providen by tomorrow.io
+    params = (set_location,('units', 'imperial'),('timesteps','1m'),('startTime','now'),('endTime','nowPlus2h'),('apikey', ''),)
+    
+
     headers = {
     "Accept": "application/json",
     "Accept-Encoding": "gzip"}
