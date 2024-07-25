@@ -288,10 +288,10 @@ def save_simulation_result(h_j, Q_uk, client3):
                 client3.write_points(json_body)
 
 
-#set client
-client = InfluxDBClient(host='ec2-3-88-251-104.compute-1.amazonaws.com',username='generic_node',password='GlareShellTwilight',database='tomorrow_api' )
-client3 = InfluxDBClient(host='ec2-3-88-251-104.compute-1.amazonaws.com',username='generic_node',password='GlareShellTwilight' ,database='simulation_kf_plot')
-client2 = InfluxDBClient(host='ec2-3-91-156-8.compute-1.amazonaws.com', username='generic_node',password='GlareShellTwilight',database='RAW')
+# client needs to be set
+client = InfluxDBClient(host='',username='',password='',database='' )
+client3 = InfluxDBClient(host='',username='',password='' ,database='')
+client2 = InfluxDBClient(host='', username='',password='',database='')
 
 # Load sensor node information
 # set up the lists(node_id and length between node and bottom)
