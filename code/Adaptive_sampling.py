@@ -5,10 +5,9 @@ from datetime import datetime, timedelta
 from influxdb import InfluxDBClient
 from pytz import timezone
 
-#inital setting
-client = InfluxDBClient(host='ec2-13-58-107-29.us-east-2.compute.amazonaws.com',username='ewre_student',password='happylife!',database='tomorrow_api' )
-client2 = InfluxDBClient(host='ec2-3-91-156-8.compute-1.amazonaws.com', port='8086', username='generic_node',
-                            password='GlareShellTwilight')
+#####This part needs to be written for server and database connection. 
+# client = InfluxDBClient(host='',username='',password='',database='' )
+# client2 = InfluxDBClient(host='', port='', username='', password='')
 
 
 def recall_precipProbability():
