@@ -24,11 +24,11 @@
 TCPClient client;
 
 /////This part needs to be written for server and database connection. 
-//char *server=""; // AWS
-//char *user = "";
-//char *password = "";
-//char *db = "";
-//int port = ;
+char *server=""; // AWS
+char *user = "";
+char *password = "";
+char *db = "";
+int port = ;
 /////////////////////////////////////////////////////////////////////////
 
 //char *data_buffer ="depth,host=particle_01,region=us-east value=66.33";
