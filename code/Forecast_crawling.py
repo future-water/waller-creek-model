@@ -6,13 +6,12 @@ import json
 from influxdb import InfluxDBClient
 from datetime import datetime
 
-client = InfluxDBClient(host='ec2-13-58-107-29.us-east-2.compute.amazonaws.com',username='ewre_student',password='happylife!',database='tomorrow_api' )
+client = InfluxDBClient(host='ec2-3-88-251-104.compute-1.amazonaws.com',username='generic_node',password='GlareShellTwilight',database='tomorrow_api' )
 
 # Tomorrow.io API https://docs.tomorrow.io/reference/get-timelines
 # use schedule module to do work
 
-location=[('location', '30.28412, -97.73118'), #PRC
-('location', '30.3265250, -97.7199113'),#Relly pond
+location=[('location', '30.3265250, -97.7199113'),#Relly pond
 ('location', '30.2871667, -97.7341111')]#bridge5
 
 #Tomorrow.io API https://docs.tomorrow.io/reference/get-timelines
@@ -25,8 +24,6 @@ def crawling_job():
 
 def collect_tomorrow_API_forecast_data(i):
     set_location=location[i]
-    print('collect data')
-    print(set_location)
     #set_location=('location', '30.2871667, -97.7341111')
 
     params = (set_location,('units', 'imperial'),('timesteps','1m'),('startTime','now'),('endTime','nowPlus2h'),('apikey', 'VYLHerX2Zbk6nBvVo4VTkpGg2JFJTfw3'),)
@@ -45,7 +42,6 @@ def collect_tomorrow_API_forecast_data(i):
     try:
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
-        print("Current Time =", current_time)
         value=my_data['timelines']['minutely']
         _location=location[i][1]
         #_location=set_location[1]
@@ -77,8 +73,6 @@ def collect_tomorrow_API_forecast_data(i):
     except KeyError as e:
         
         print('KeyError:', e)
-        print(my_data)
-        print(params)
 
 def main():
     schedule.every().hour.at(":00").do(crawling_job)
