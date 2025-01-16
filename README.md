@@ -1,7 +1,8 @@
 # waller-creek-model
 
-
-Kim, Y., Oh, J., & Bartos, M. (2025). Stormwater digital twin with online quality control detects urban flood hazards under uncertainty. Sustainable Cities and Society, 118, 105982. https://doi.org/10.1016/j.scs.2024.105982 
+Source code and data from the digital twin of an urban watershed (Waller Creek Watershed) with online sensor data.
+- Ref: Kim, Y., Oh, J., & Bartos, M. (2025). Stormwater digital twin with online quality control detects urban flood hazards under uncertainty. Sustainable Cities and Society, 118, 105982. https://doi.org/10.1016/j.scs.2024.105982 
+- Online sensor data: http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&from=1677169551578&to=1677621318737 
 
 <!-- Map : http://ec2-13-58-107-29.us-east-2.compute.amazonaws.com:5000<br> -->
 <!--
@@ -12,4 +13,3 @@ Kim, Y., Oh, J., & Bartos, M. (2025). Stormwater digital twin with online qualit
   <img src="./schematic.png" alt="Description of Image" width="500"/>
 </div>
 
-- Sensor data: http://ec2-3-91-156-8.compute-1.amazonaws.com:3000/d/jhFO4Gsnk/waller-creek-nodes?orgId=1&from=1677169551578&to=1677621318737 
