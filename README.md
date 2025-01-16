@@ -1,4 +1,4 @@
-## Digital twin of an urban watershed -- Waller Creek Watershed 
+## Digital Twin Watershed – Waller Creek Model
 
 Source code and data for the digital twin of an urban watershed, the Waller Creek Watershed, with online sensor data.
 - **Reference**: Kim, Y., Oh, J., & Bartos, M. (2025). Stormwater digital twin with online quality control detects urban flood hazards under uncertainty. Sustainable Cities and Society, 118, 105982. https://doi.org/10.1016/j.scs.2024.105982 
